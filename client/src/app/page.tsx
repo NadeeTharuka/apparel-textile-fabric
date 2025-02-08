@@ -64,14 +64,14 @@ export default function Home() {
             </div>
             <div style={{ borderRadius: 'var(--radius-l)', overflow: 'hidden' }}>
               <img 
-                src="/images/image2.png" 
+                src="/images/image2.jpg" 
                 alt="Description" 
                 style={{ borderRadius: 'var(--radius-l)' }}
               />
             </div>
             <div style={{ borderRadius: 'var(--radius-l)', overflow: 'hidden' }}>
               <img 
-                src="/images/image3.png" 
+                src="/images/image3.jpg" 
                 alt="Description" 
                 style={{ borderRadius: 'var(--radius-l)' }}
               />
