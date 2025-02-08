@@ -92,7 +92,7 @@ export default function Home() {
           <InlineCode className="shadow-m" style={{ fontSize: '24px' , padding: '8px 16px', borderRadius: '8px' }}>
           Welcome to Our Apparel Textile Services!
           </InlineCode>
-
+         
           <Heading wrap="balance" variant="display-strong-s">
             <motion.span
               initial={{ opacity: 0, y: 20 }}
