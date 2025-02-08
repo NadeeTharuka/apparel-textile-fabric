@@ -33,7 +33,7 @@ export default function Home() {
     {
       href: "https://maps.app.goo.gl/9zUiKJKfrnUdksVz7",
       title: "Address",
-      description: "u/kathara/591",
+      description: "102/01, Pujapitiya, Kandy",
     },
   ];
 
@@ -155,7 +155,7 @@ export default function Home() {
         border="neutral-medium"
       >
         <Text variant="body-default-s" onBackground="neutral-weak">
-        2025 Apparel & Textile Fabrics. All Rights Reserved.
+        © 2025 BSCS Fabric Cutting Solution. All rights reserved
         </Text>
         
       </Flex>

@@ -16,25 +16,25 @@ const style = {
 
 // default metadata
 const meta = {
-    title: 'Aztra PVT LTD',
-    description: 'Aztra is a dynamic software company based in Kandy, Sri Lanka. '
+    title: 'BSCS',
+    description: 'BSCS is a Apparel Textile Fabric company based in Kandy, Sri Lanka. '
 }
 
 
 // default open graph data
 const og = {
-    title: 'Aztra',
-    description: 'Specializes in Software development and SaaS',
+    title: 'BSCS',
+    description: 'Specializes in cutting solutions for the apparel, textile, and fabric industry',
     type: 'website'
 }
 
 // default schema data
 const schema = {
-    logo: 'Aztra PVT LTD',
+    logo: 'BSCS',
     type: 'Organization',
-    name: 'Aztra PVT LTD',
-    description: 'Aztra is a dynamic software company based in Kandy, Sri Lanka. ',
-    email: 'jobs@aztra.lk'
+    name: 'BSCS',
+    description: 'BSCS is a Apparel Textile Fabric company based in Kandy, Sri Lanka. ',
+    email: 'nuwandarshana472@gmail.com'
 }
 
 // social links

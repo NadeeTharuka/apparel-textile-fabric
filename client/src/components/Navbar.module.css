@@ -1,0 +1,38 @@
+.navMenu {
+  display: flex;
+  list-style: none;
+  margin-left: auto; /* Pushes navbar items to the right */
+  padding: 0;
+}
+
+.navItem {
+  transition: background-color 0.2s ease, color 0.2s ease;
+  padding: 6px 12px; /* Adjusted padding for compact spacing */
+  border-radius: 8px;
+  text-decoration: none; 
+  color: inherit;
+  display: inline-block;
+  border: 1px solid transparent;
+}
+
+.navItem:hover {
+  background-color: var(--neutral-alpha-medium);
+  border-color: var(--neutral-alpha-medium);
+  border-radius: 8px;
+}
+
+.navItem:active {
+  background-color: var(--neutral-alpha-medium);
+  border-color: var(--neutral-alpha-medium);
+  border-radius: 8px;
+}
+
+.active {
+  border: 1px solid;
+  font-weight: 600;
+}
+
+.active:hover {
+  background-color: var(--brand-weak) !important;
+  border-color: var(--brand-medium) !important;
+}
