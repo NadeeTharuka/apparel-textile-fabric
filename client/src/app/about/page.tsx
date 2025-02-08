@@ -7,7 +7,6 @@ import {
   Flex,
   Button,
   Grid,
-  Icon,
 } from "@/once-ui/components";
 import Link from "next/link";
 
@@ -16,11 +15,9 @@ const AboutUs = () => {
     {
       name: "Nuwan Darshana",
       role: "Managing Director",
-      description: "",
-      image: "/images/team/john.jpg",
+      description: "Leading the company with innovation and dedication.",
+      // image: "/images/team/john.jpg",
     },
-   
-
   ];
 
   return (
@@ -45,7 +42,7 @@ const AboutUs = () => {
         alignItems="center"
       >
         <Text variant="label-default-m" align="center">
-        We provide precise and efficient cutting solutions for the apparel, textile, and fabric industry. Our services include numbering, cutting, bundling, and fabric laying, ensuring high-quality processing for seamless garment production.
+          We provide precise and efficient cutting solutions for the apparel, textile, and fabric industry. Our services include numbering, cutting, bundling, and fabric laying, ensuring high-quality processing for seamless garment production.
         </Text>
 
         <Grid
@@ -67,7 +64,7 @@ const AboutUs = () => {
           >
             <Heading variant="body-strong-m" align="center">Our Mission</Heading>
             <Text variant="body-default-m" align="center">
-            To deliver exceptional fabric cutting solutions with precision, efficiency, and innovation, helping businesses achieve excellence in textile and apparel manufacturing.
+              To deliver exceptional fabric cutting solutions with precision, efficiency, and innovation, helping businesses achieve excellence in textile and apparel manufacturing.
             </Text>
           </Flex>
 
@@ -83,54 +80,54 @@ const AboutUs = () => {
           >
             <Heading variant="body-strong-m" align="center">Our Vision</Heading>
             <Text variant="body-default-m" align="center">
-            To be a leading provider of cutting-edge fabric processing solutions, setting industry standards in quality, reliability, and customer satisfaction.
+              To be a leading provider of cutting-edge fabric processing solutions, setting industry standards in quality, reliability, and customer satisfaction.
             </Text>
           </Flex>
         </Grid>
 
-        <Heading variant="body-strong-l" align="center" marginTop="xl">
-          Our Team
-        </Heading>
-
-        <Grid
-          columns="repeat(2, 1fr)"
-          tabletColumns="1col"
-          mobileColumns="1col"
-          gap="l"
+        {/* Our Team Section Inside a Box */}
+        <Heading variant="body-strong-l">Our Team</Heading>
+        <Flex
+          direction="column"
+          alignItems="center"
+          justifyContent="center"
+          padding="xl"
+          background="brand-weak"
+          gap="xl"
           fillWidth
+          style={{
+            borderRadius: 'var(--radius-m)',
+            boxShadow: 'var(--elevation-card)',
+            maxWidth: "800px",
+            textAlign: "center",
+          }}
         >
+
           {teamMembers.map((member) => (
             <Flex
               key={member.name}
               direction="column"
               gap="m"
-              padding="xl"
-              background="brand-weak"
               alignItems="center"
-              style={{ 
-                borderRadius: 'var(--radius-m)',
-                boxShadow: 'var(--elevation-card)'
+              padding="l"
+              background="white"
+              style={{
+                borderRadius: "var(--radius-m)",
+                boxShadow: "var(--elevation-card)",
+                width: "100%",
+                maxWidth: "400px",
+                textAlign: "center",
               }}
             >
-              <img
-                src={member.image}
-                alt={member.name}
-                style={{
-                  width: "140px",
-                  height: "140px",
-                  borderRadius: '50%',
-                  objectFit: "cover",
-                  border: '4px solid var(--brand-medium)'
-                }}
-              />
-              <Heading variant="body-strong-s" align="center">{member.name}</Heading>
-              <Text variant="body-strong-m" color="brand-strong">{member.role}</Text>
-              <Text variant="body-default-m" align="center">
-                {member.description}
+              
+              <Heading variant="body-strong-s">{member.name}</Heading>
+              <Text variant="body-strong-m" color="brand-strong">
+                {member.role}
               </Text>
+              <Text variant="body-default-m">{member.description}</Text>
             </Flex>
           ))}
-        </Grid>
+        </Flex>
 
         <Flex direction="column" gap="l" alignItems="center" marginTop="xl">
           <Text variant="label-default-m" align="center">
