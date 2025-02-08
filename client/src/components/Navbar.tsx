@@ -36,7 +36,7 @@ const Navbar = () => {
           { href: "/", label: "Home" },
           { href: "/services", label: "Services" },
           { href: "/about", label: "About" },
-          { href: "/customer-feedback", label: "Customer Feedback" },
+          //{ href: "/customer-feedback", label: "Customer Feedback" },
           { href: "/contact", label: "Contact Us" },
         ].map(({ href, label }) => (
           <li key={href}>
