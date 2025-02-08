@@ -30,7 +30,7 @@ const og = {
 
 // default schema data
 const schema = {
-    logo: 'BSCS',
+    logo: 'bscs',
     type: 'Organization',
     name: 'BSCS',
     description: 'BSCS is a Apparel Textile Fabric company based in Kandy, Sri Lanka. ',
