@@ -20,9 +20,9 @@ const Navbar = () => {
     >
       <Link href="/">
         <img
-          src="/images/aztra-logo.png"
+          src="/images/bscs.png"
           alt="BSCS"
-          style={{ height: "40px", objectFit: "contain" }}
+          style={{ height: "100px", objectFit: "contain" }}
         />
       </Link>
       <Flex
