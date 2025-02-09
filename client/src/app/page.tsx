@@ -33,7 +33,7 @@ export default function Home() {
     {
       href: "https://maps.app.goo.gl/9zUiKJKfrnUdksVz7",
       title: "Address",
-      description: "102/01, Pujapitiya, Kandy",
+      description: "102/01, Pujapitiya, Kandy, Sri Lanka",
     },
   ];
 
