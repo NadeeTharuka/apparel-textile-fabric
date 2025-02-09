@@ -22,7 +22,7 @@ import Image from 'next/image';
 export default function Home() {
   const links = [
     {
-      href: "nuwandarshana472@gmail.com",
+      href: "mailto:nuwandarshana472@gmail.com",
       title: "Email",
       description: "nuwandarshana472@gmail.com",
     },
