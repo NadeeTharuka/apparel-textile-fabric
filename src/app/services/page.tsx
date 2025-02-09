@@ -31,9 +31,9 @@ const SolutionsPage = () => {
       features: ["Compatible with various fabric types (cotton, polyester, silk, etc.)", "Customizable cutting solutions based on fabric requirements", "High precision and clean cuts for every fabric type", "Suitable for both small-scale and mass production"]
     },
     {
-      title: "CPI (Cost Per Item)",
-      description: "CPI is a measurement used to calculate the cost of producing each individual item in a garment or textile manufacturing process, helping businesses monitor and optimize costs.",
-      features: ["Provides a clear understanding of production costs per item", "Helps in cost optimization and pricing strategies", "Allows businesses to track manufacturing efficiency", "Supports better budgeting and financial planning"]
+      title: "CPI",
+      description: "Cut Panel Inspection (CPI) is a quality control process used in the garment industry to inspect fabric panels before stitching. It helps identify defects early, reducing the cost of rework and wastage.",
+      features: ["Early Defect Detection", "Cost Reduction", "Improved Quality", "Efficiency Boost", "Standard Compliance"]
     },
     {
       title: "Yan Remove",
