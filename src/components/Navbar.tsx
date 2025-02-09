@@ -5,6 +5,7 @@ import { Flex, Text } from "@/once-ui/components";
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
 import styles from './Navbar.module.css';
+import Image from 'next/image';
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -19,10 +20,12 @@ const Navbar = () => {
       alignItems="center"
     >
       <Link href="/">
-        <img
+        <Image
           src="/images/bscs.png"
           alt="BSCS"
-          style={{ height: "100px", objectFit: "contain" }}
+          width={100}
+          height={100}
+          style={{ objectFit: "contain" }}
         />
       </Link>
       <Flex

@@ -21,7 +21,7 @@ export const metadata = {
     title: og.title,
     description: og.description,
     url: 'https://' + baseURL,
-    type: og.type
+    type: 'website' as const
   }
 };
 
@@ -55,8 +55,6 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
         />
-        {/* Add static font links */}
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto+Mono&display=swap" rel="stylesheet" />
       </head>
       <Flex
         as="body"

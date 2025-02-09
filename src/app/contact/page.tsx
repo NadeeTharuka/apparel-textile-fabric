@@ -30,7 +30,7 @@ export default function ContactUs() {
       href: "https://maps.app.goo.gl/9zUiKJKfrnUdksVz7",
       title: "Address",
       description: "102/01, Pujapitiya, Kandy, Sri Lanka",
-    },
+    }
   ];
 
   return (
@@ -44,7 +44,7 @@ export default function ContactUs() {
       <Flex as="main" direction="column" alignItems="center" gap="l">
         {/* <Logo size="xl" href="/" /> */}
         <Heading variant="display-strong-s">Contact Us</Heading>
-        <Text variant="body-default-m">We'd love to hear from you!</Text>
+        <Text variant="body-default-m">We&apos;d love to hear from you!</Text>
 
         <Grid
           radius="l"
