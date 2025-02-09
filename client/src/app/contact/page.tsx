@@ -17,7 +17,7 @@ import Link from "next/link";
 export default function ContactUs() {
   const contactInfo = [
     {
-      href: "nuwandarshana472@gmail.com",
+      href: "mailto:nuwandarshana472@gmail.com",
       title: "Email",
       description: "nuwandarshana472@gmail.com",
     },
@@ -27,7 +27,7 @@ export default function ContactUs() {
       description: "+94 77 537 7707",
     },
     {
-      href: "",
+      href: "https://maps.app.goo.gl/9zUiKJKfrnUdksVz7",
       title: "Address",
       description: "102/01, Pujapitiya, Kandy, Sri Lanka",
     },
