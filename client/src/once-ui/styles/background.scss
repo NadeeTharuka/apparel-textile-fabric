@@ -4,17 +4,18 @@
 
 /* PAGE */
 .page-background {
-    background-color: var(--page-background);
+    background-color: #140c2b ; /* Light Gray */
 }
 
 .surface-background {
-    background-color: var(--surface-background);
-    backdrop-filter: var(--backdrop-filter);
+    background-color: #ffffff; /* White */
+    backdrop-filter: blur(10px); /* Soft blur effect */
 }
 
 .backdrop {
-    background-color: var(--backdrop);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
 }
+
 
 /* NEUTRAL */
 .neutral-background-weak,
