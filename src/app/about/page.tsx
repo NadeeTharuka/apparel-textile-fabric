@@ -110,7 +110,7 @@ const AboutUs = () => {
               gap="m"
               alignItems="center"
               padding="l"
-              background="white"
+              background="neutral-weak"
               style={{
                 borderRadius: "var(--radius-m)",
                 boxShadow: "var(--elevation-card)",

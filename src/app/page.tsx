@@ -14,9 +14,10 @@ import {
   Arrow,
 } from "@/once-ui/components";
 import Link from "next/link";
-import { Carousel } from "react-responsive-carousel"; // Import the carousel component
+import { Carousel } from "react-responsive-carousel"; 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { motion } from "framer-motion";
+import Image from 'next/image';
 
 export default function Home() {
   const links = [
@@ -55,25 +56,47 @@ export default function Home() {
             infiniteLoop
             showStatus={false}
           >
-            <div style={{ borderRadius: 'var(--radius-l)', overflow: 'hidden' }}>
-              <img 
+            <div style={{ borderRadius: 'var(--radius-l)', overflow: 'hidden', position: 'relative', width: '100%', height: '400px' }}>
+              <Image 
                 src="/images/image1.png" 
                 alt="Description" 
-                style={{ borderRadius: 'var(--radius-l)' }}
+                width={800}
+                height={400}
+                priority
+                style={{ 
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  borderRadius: 'var(--radius-l)' 
+                }}
               />
             </div>
-            <div style={{ borderRadius: 'var(--radius-l)', overflow: 'hidden' }}>
-              <img 
+            <div style={{ borderRadius: 'var(--radius-l)', overflow: 'hidden', position: 'relative', width: '100%', height: '400px' }}>
+              <Image 
                 src="/images/image2.jpg" 
                 alt="Description" 
-                style={{ borderRadius: 'var(--radius-l)' }}
+                width={800}
+                height={400}
+                style={{ 
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  borderRadius: 'var(--radius-l)' 
+                }}
               />
             </div>
-            <div style={{ borderRadius: 'var(--radius-l)', overflow: 'hidden' }}>
-              <img 
+            <div style={{ borderRadius: 'var(--radius-l)', overflow: 'hidden', position: 'relative', width: '100%', height: '400px' }}>
+              <Image 
                 src="/images/image3.jpg" 
                 alt="Description" 
-                style={{ borderRadius: 'var(--radius-l)' }}
+                width={800}
+                height={400}
+                style={{ 
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  borderRadius: 'var(--radius-l)' 
+                }}
               />
             </div>
           </Carousel>
