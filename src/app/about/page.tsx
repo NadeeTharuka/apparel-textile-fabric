@@ -54,11 +54,13 @@ const AboutUs = () => {
         alignItems="center"
       >
         <Text variant="label-default-m" align="center">
-          <Heading>Precision Cutting & Expert Consultation for the Textile Industry
-          </Heading>
-          <br></br>
-          Bogahawatta Sub Cutting Service is a trusted name in third-party fabric cutting and related services for Sri Lanka's leading textile manufacturers. With a strong reputation built over the past six years, we provide high-quality, precision-driven solutions to some of the country's top garment manufacturers, ensuring efficiency and accuracy in every stage of fabric preparation.
-        </Text>
+  <Heading>
+    Precision Cutting & Expert Consultation for the Textile Industry
+  </Heading>
+  <br />
+  Bogahawatta Sub Cutting Service is a trusted name in third-party fabric cutting and related services for Sri Lanka&apos;s leading textile manufacturers. With a strong reputation built over the past six years, we provide high-quality, precision-driven solutions to some of the country&apos;s top garment manufacturers, ensuring efficiency and accuracy in every stage of fabric preparation.
+</Text>
+
 
         <Grid
           columns="repeat(2, 1fr)"
