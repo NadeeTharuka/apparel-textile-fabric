@@ -6,40 +6,36 @@ import { Heading, Text, Flex, Grid } from "@/once-ui/components";
 const SolutionsPage = () => {
   const solutions = [
     {
-      title: "Numbering",
-      description: "Assigning identification numbers to fabric pieces to ensure proper sequencing and organization during production",
-      features: ["Ensures accurate tracking of fabric pieces", "Minimizes errors in garment assembly", "Streamlines production workflow"]
+      title: "Fabric Layering(Auto & Manual)",
+      description: "Ensuaring perfectly aligned fabric layers for a flawless cutting process.",
+      features: ["Automated layering for efficiency", "Manual adjustments for precision", "Minimized fabric distortion", "Consistent layering thickness"]
     },
     {
-      title: "Bandknife Cutting",
-      description: "Bandknife cutting uses a continuous loop blade to cut fabric, providing precise and clean edges for intricate designs and complex shapes, ideal for mass production.",
-      features: ["Accurate and smooth cuts on various fabrics", "Suitable for cutting complex shapes and designs", "Increases production efficiency for large volumes", "Reduces fabric wastage with precise cutting"]
+      title: "Fabric Cutting(Auto & Manual)",
+      description: "Using both automated and manual cutting techniques for precision and consistency.",
+      features: [ "High-precision automated cutting", "Manual trimming for intricate parts", "Reduced fabric wastage", "Consistent cut quality"]
     },
     {
-      title: "Bundling",
-      description: "Grouping and organizing cut fabric pieces into bundles for efficient handling and further processing",
-      features: ["Maintains order and reduces mix-ups", "Increases efficiency in sewing and assembly", "Custom bundling options based on order requirements"]
+      title: "Fabric Numbering",
+      description: "Systematic numbering for accurate tracking and organization.",
+      features: ["Sequential labeling of layers", "Prevents mix-ups during assembly", "Enhances traceability", "Supports efficient workflow"]
     },
     {
-      title: "Fabric Laying",
-      description: "Spreading fabric layers evenly before cutting to ensure consistency and accuracy",
-      features: ["Reduces fabric distortion and stretching", "Supports different laying techniques (manual/automatic)", "Ensures smooth and even fabric surfaces for precise cutting"]
+      title: "Quality Checking of Previously Cut Panels(CPI)",
+      description: "Inspecting pre-cut fabric for defects and inconsistencies.",
+      features: ["Visual inspection for flaws", "Measurement accuracy verification", "Panel defect marking", "Compliance with quality standards"]
     },
     {
-      title: "Any Fabric Cutting",
-      description: "We offer versatile fabric cutting solutions for a wide range of materials, ensuring quality cuts regardless of fabric type or thickness",
-      features: ["Compatible with various fabric types (cotton, polyester, silk, etc.)", "Customizable cutting solutions based on fabric requirements", "High precision and clean cuts for every fabric type", "Suitable for both small-scale and mass production"]
+      title: "Yarn Removal",
+      description: "Eliminating unwanted fibers for a clean and professional finish.",
+      features: ["Removal of loose yarns", "Clean edge preparation", "Improves appearance", "Prevents fabric unraveling"]
     },
     {
-      title: "CPI",
-      description: "Cut Panel Inspection (CPI) is a quality control process used in the garment industry to inspect fabric panels before stitching. It helps identify defects early, reducing the cost of rework and wastage.",
-      features: ["Early Defect Detection", "Cost Reduction", "Improved Quality", "Efficiency Boost", "Standard Compliance"]
+      title: "Fabric Touch-Up",
+      description: "Refining cut fabrics to maintain superior quality.",
+      features: ["Minor defect correction", "Edge smoothing and shaping", "Final quality adjustments", "Ensures visual and structural integrity"]
     },
-    {
-      title: "Yan Remove",
-      description: "Yan removal is the process of removing unwanted elements (such as excess fabric, threads, or marks) from the fabric before it is used for garment production, ensuring clean and precise materials.",
-      features: ["Ensures clean and clear fabric for production", "Removes excess threads, marks, or imperfections", "Increases the quality and consistency of final products", "Helps reduce rework and defects in the finished garments"]
-    },
+    
   
   ];
 
@@ -67,6 +63,11 @@ const SolutionsPage = () => {
           </Flex>
         ))}
       </Grid>
+      <div className="flex items-center justify-center min-h-screen bg-white text-center px-4">
+      <p className="text-xl font-medium text-gray-800 max-w-2xl">
+        We offer a comprehensive range of sub-cutting and fabric processing solutions, catering to the specific requirements of large-scale textile and apparel manufacturers.
+      </p>
+    </div>
     </Flex>
   );
 };

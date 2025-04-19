@@ -113,7 +113,7 @@ export default function Home() {
          
 
           <InlineCode className="shadow-m" style={{ fontSize: '24px' , padding: '8px 16px', borderRadius: '8px' }}>
-          Welcome to Our Apparel Textile Services!
+          Welcome to Our Bogahawatta Sub Cutting Services!
           </InlineCode>
          
           <Heading wrap="balance" variant="display-strong-s">
@@ -125,6 +125,7 @@ export default function Home() {
               Cutting & Fabric Solutions
             </motion.span>
           </Heading>
+          Providing precision sub-cutting services, including fabric layering, cutting, numbering, and bundling, to meet the demands of large garment manufacturers.
 
           <Button id="contactUs" href="/contact" variant="secondary">
             <Flex alignItems="center">

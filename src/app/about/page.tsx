@@ -13,9 +13,21 @@ import Link from "next/link";
 const AboutUs = () => {
   const teamMembers = [
     {
-      name: "Nuwan Darshana",
+      name: "Mr. Nuwan Darshana",
       role: "Managing Director",
-      description: "Leading the company with innovation and dedication.",
+      description: "Nuwan Darshana, the Managing Director of Bogahawatta Sub Cutting Service, brings over 20 years of experience in the clothing and garment industry. His extensive knowledge and hands-on expertise have been instrumental in establishing the company as a trusted partner for top-tier textile manufacturers in Sri Lanka. With a strong focus on process optimization, quality assurance, and technological innovation, he has led the company to deliver high-precision fabric cutting and consultancy services. His commitment to excellence and continuous improvement has helped numerous textile businesses enhance efficiency, reduce fabric wastage, and implement advanced cutting solutions. Under his leadership, Bogahawatta Sub Cutting Service continues to grow, providing reliable, high-quality solutions that meet the evolving needs of the industry.",
+      // image: "/images/team/john.jpg",
+    },
+    {
+      name: "H.K.P.M. Hewavitharana",
+      role: "Marketing Director",
+      description: "",
+      // image: "/images/team/john.jpg",
+    },
+    {
+      name: "W. Ruwan Fernando",
+      role: "Custom Relationship Manager",
+      description: "",
       // image: "/images/team/john.jpg",
     },
   ];
@@ -42,7 +54,10 @@ const AboutUs = () => {
         alignItems="center"
       >
         <Text variant="label-default-m" align="center">
-          We provide precise and efficient cutting solutions for the apparel, textile, and fabric industry. Our services include numbering, cutting, bundling, and fabric laying, ensuring high-quality processing for seamless garment production.
+          <Heading>Precision Cutting & Expert Consultation for the Textile Industry
+          </Heading>
+          <br></br>
+          Bogahawatta Sub Cutting Service is a trusted name in third-party fabric cutting and related services for Sri Lanka's leading textile manufacturers. With a strong reputation built over the past six years, we provide high-quality, precision-driven solutions to some of the country's top garment manufacturers, ensuring efficiency and accuracy in every stage of fabric preparation.
         </Text>
 
         <Grid
@@ -64,7 +79,7 @@ const AboutUs = () => {
           >
             <Heading variant="body-strong-m" align="center">Our Mission</Heading>
             <Text variant="body-default-m" align="center">
-              To deliver exceptional fabric cutting solutions with precision, efficiency, and innovation, helping businesses achieve excellence in textile and apparel manufacturing.
+              Our mission is to provide top-tier textile companies with seamless and accurate fabric cutting services that enhance production efficiency while maintaining the highest industry standards. We strive to be the leading sub-cutting service provider in Sri Lanka by continuously.
             </Text>
           </Flex>
 
@@ -80,7 +95,7 @@ const AboutUs = () => {
           >
             <Heading variant="body-strong-m" align="center">Our Vision</Heading>
             <Text variant="body-default-m" align="center">
-              To be a leading provider of cutting-edge fabric processing solutions, setting industry standards in quality, reliability, and customer satisfaction.
+              At Bogahawatta Sub Cutting Service, we take pride in delivering precision, consistency, and reliability. Our commitment to cutting-edge techniques, skilled craftsmanship, and industry expertise makes us the go-to choice for top textile companies in Sri Lanka.
             </Text>
           </Flex>
         </Grid>
